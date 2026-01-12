@@ -5,12 +5,14 @@
         width: 95%;
 		display:black;
     }
+
 	 .tags {
         width: 95%;
         margin: auto;
         padding: 10px 0;
         overflow: hidden;
     }
+    
 
     .tags span {
         float: left;
