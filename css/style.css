@@ -1,0 +1,151 @@
+*{
+	box-sizing:border-box
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+	background: #f2f2f2;
+}
+
+.nawbar {
+	width: 80%;
+	margin: auto;
+}
+.header-text p{
+	width:80%;
+	float:left;
+	color:white;
+	margin: 10px 10px 10px 0px;
+	
+}
+.logo{
+	width: 100%;
+	cursor: pointer;
+}
+.header-logo {
+	width: 60%;
+	float: left;
+}
+
+.nawbar h1 {
+	margin: 10px 10px 0px 20px;
+	color: white;
+	float: left;
+}
+
+.header {
+	width: 100%;
+	background-color: #0f7c8a;
+	padding: 10px 10px 0px 10px;
+	overflow: hidden; 						
+}
+.header-logo img {
+	height: 50px;
+	background: white;
+	padding: 6px;
+	border-radius: 6px;
+	float:left;
+}
+
+.search {
+	padding: 15px;
+	text-align: center;
+}
+
+.search input {
+	width: 60%;
+	padding: 8px;
+	border: none;
+	border-radius:15px;
+}
+
+.tags {
+	padding: 10px 15px;
+	width: 60%;
+    margin: auto;
+	cursor:pointer;
+}
+
+.tags span {
+	background:#c5d7d9;
+	padding: 10px 20px 10px 20px;
+	margin-right: 15px;
+	font-size: 12px;
+	border-radius:15px;
+	cursor:pointer;
+	
+}
+.tag span {
+	background:#ccf2f6;
+	padding: 10px 20px 10px 20px;
+	font-size: 12px;
+	border-radius:15px;
+	cursor:pointer;
+}
+.read{
+	margin-top: 30px;
+}
+
+
+.blogs {
+	width:80%;
+	margin:auto;
+	
+}
+.main-card{
+	width:100%;
+	float:left;
+}
+
+.card {
+	width: 30%;
+	margin: 20px;
+	background: white;
+	float: left;  
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.card-head {
+	color: white;
+	padding: 20px;
+	font-weight: bold;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.head1 { 
+	background: linear-gradient(0deg, rgba(7, 86, 134, 1) 0%, rgba(13, 115, 138, 1) 100%);
+}
+.head2 {
+	background: linear-gradient(0deg, rgba(13, 123, 144, 1) 0%, rgba(7, 174, 203, 1) 100%);
+}
+.head3 {
+	background: linear-gradient(150deg,rgba(25, 112, 149, 1) 0%, rgba(79, 79, 179, 1) 56%, rgba(7, 172, 200, 1) 100%);
+}
+.head4 { 
+	background: linear-gradient(0deg, rgba(20, 178, 164, 1) 0%, rgba(14, 122, 140, 1) 100%);
+}
+.head5 {
+	background: linear-gradient(150deg,rgba(25, 112, 149, 1) 0%, rgba(79, 79, 179, 1) 56%, rgba(7, 172, 200, 1) 100%);
+}
+.head6 {
+    background: linear-gradient(0deg, rgba(18, 120, 144, 1) 0%, rgba(88, 161, 240, 1) 100%);
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body small {
+    color: gray;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #0b7285;
+    font-weight: bold;
+}
+
+
